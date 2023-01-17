@@ -1,0 +1,30 @@
+.Nav {
+	background-color: #679436;
+	height: 55px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.NavLink a {
+	background-color: #679436;
+	color: #000000;
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 1.1rem;
+	text-decoration: none;
+	padding: 0 1.7rem;
+	cursor: pointer;
+	&.active {
+		color: #147bc1;
+	}
+}
+
+.NavMenu {
+	background-color: #679436;
+	display: flex;
+	align-items: center;
+	@media screen and (max-width: 768px) {
+		display: none;
+	}
+}

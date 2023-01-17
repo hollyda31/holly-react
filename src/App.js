@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Home from './pages';
-import About from './pages/about';
-import Blogs from './pages/blogs';
-import SignUp from './pages/signup';
+import Home from './pages/index';
+import Learning from './pages/learning';
+import MyWork from './pages/mywork';
+import Resume from './pages/resume';
 import Contact from './pages/contact';
 
 function App() {
@@ -15,24 +15,24 @@ function App() {
 			<Routes>
 				<Route
 					exact
-					path='/'
+					path='/index'
 					element={<Home />}
 				/>
 				<Route
-					path='/about'
-					element={<About />}
+					path='/learning'
+					element={<Learning />}
+				/>
+				<Route
+					path='/resume'
+					element={<Resume />}
+				/>
+				<Route
+					path='/mywork'
+					element={<MyWork />}
 				/>
 				<Route
 					path='/contact'
 					element={<Contact />}
-				/>
-				<Route
-					path='/blogs'
-					element={<Blogs />}
-				/>
-				<Route
-					path='/sign-up'
-					element={<SignUp />}
 				/>
 			</Routes>
 		</Router>

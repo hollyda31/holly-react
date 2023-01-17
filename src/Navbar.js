@@ -1,16 +1,35 @@
 import React from 'react';
-import { Nav, NavLink, NavMenu } from './NavbarElements';
+import { NavLink } from './NavbarElements';
+import './navbar.css';
 
 const Navbar = () => {
 	return (
 		<>
-			<Nav>
-				<NavMenu>
+			<div className='Nav'>
+				<div className='NavMenu'>
 					<NavLink
-						to='/about'
+						to='/index'
 						activeStyle
 					>
-						About
+						Home
+					</NavLink>
+					<NavLink
+						to='/learning'
+						activeStyle
+					>
+						Learning
+					</NavLink>
+					<NavLink
+						to='/resume'
+						activeStyle
+					>
+						Resume/CV
+					</NavLink>
+					<NavLink
+						to='/mywork'
+						activeStyle
+					>
+						My Work
 					</NavLink>
 					<NavLink
 						to='/contact'
@@ -18,20 +37,8 @@ const Navbar = () => {
 					>
 						Contact Us
 					</NavLink>
-					<NavLink
-						to='/blogs'
-						activeStyle
-					>
-						Blogs
-					</NavLink>
-					<NavLink
-						to='/sign-up'
-						activeStyle
-					>
-						Sign Up
-					</NavLink>
-				</NavMenu>
-			</Nav>
+				</div>
+			</div>
 		</>
 	);
 };
