@@ -1,0 +1,73 @@
+* {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.hero {
+	width: 100%;
+}
+
+.heroGrid {
+	display: grid;
+	grid-template-columns: 50% 20% 30%;
+}
+
+.heroLeft {
+	grid-column: 1;
+	grid-row: 1;
+	width: 60%;
+	padding-top: 4rem;
+}
+
+.heroHeadline {
+	font-size: 3rem;
+	font-weight: bold;
+	padding-left: 15%;
+}
+
+.heroSubtext {
+	font-size: 2rem;
+	font-weight: bold;
+	padding-left: 25%;
+	padding-top: 1rem;
+}
+
+.heroRight {
+	grid-column: 3;
+	grid-row: 1;
+}
+
+.heroSkills {
+	font-size: 1.5rem;
+	justify-content: center;
+	font-weight: bold;
+}
+
+@media (min-width: 901px) {
+	.heroBackground {
+		background-image: url('/src/images/herofull.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 350px;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+	.heroBackground {
+		background-image: url('/src/images/heromid.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 250px;
+	}
+}
+
+@media (max-width: 699px) {
+	.heroBackground {
+		background-image: url('/src/images/heromobile.png');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 150px;
+	}
+}

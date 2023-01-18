@@ -7,6 +7,7 @@ import Learning from './pages/learning';
 import MyWork from './pages/mywork';
 import Resume from './pages/resume';
 import Contact from './pages/contact';
+import Hero from './components/sections/hero';
 
 function App() {
 	return (
@@ -33,6 +34,10 @@ function App() {
 				<Route
 					path='/contact'
 					element={<Contact />}
+				/>
+				<Route
+					path='/hero'
+					element={<Hero />}
 				/>
 			</Routes>
 		</Router>
