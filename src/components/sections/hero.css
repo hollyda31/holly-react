@@ -18,17 +18,26 @@
 	padding-top: 4rem;
 }
 
+.hero p {
+	color: white;
+}
+
 .heroHeadline {
+	color: white;
+	text-shadow: 0 0 20px rgba(0, 0, 0, .5);
 	font-size: 3rem;
 	font-weight: bold;
 	padding-left: 15%;
 }
 
 .heroSubtext {
+	color: white;
+	text-shadow: 0 0 20px rgba(0, 0, 0, .5);
 	font-size: 2rem;
 	font-weight: bold;
-	padding-left: 25%;
+	padding-left: 45%;
 	padding-top: 1rem;
+	text-decoration: none;
 }
 
 .heroRight {
@@ -37,9 +46,11 @@
 }
 
 .heroSkills {
+	color: white;
 	font-size: 1.5rem;
 	justify-content: center;
 	font-weight: bold;
+	text-shadow: 0 0 20px rgba(0, 0, 0, .5);
 }
 
 @media (min-width: 901px) {

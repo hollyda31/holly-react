@@ -23,7 +23,7 @@ const Navbar = () => {
 						to='/resume'
 						activeStyle
 					>
-						Resume/CV
+						Resume
 					</NavLink>
 					<NavLink
 						to='/mywork'

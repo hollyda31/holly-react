@@ -2,7 +2,7 @@
 	background-color: #679436;
 	height: 55px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: right;
 }
 
 .NavLink a {

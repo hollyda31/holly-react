@@ -8,7 +8,7 @@ const Hero = () => {
 				<div className='heroGrid'>
 					<div className='heroLeft'>
 						<h1 className='heroHeadline'>Holly Antle</h1>
-						<h2 className='heroSubtext'>Full Stack Developer</h2>
+						<div  className='heroSubtext'>Full Stack Developer</div>
 					</div>
 					<div className='heroRight'>
 						<div className='heroSkills'>
