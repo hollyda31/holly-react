@@ -1,5 +1,61 @@
 #downloadBtn {
-    margin-left: auto;
-    margin-right: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
+.resumeBody {
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #d7d7d7;
+	color: black;
+	border: 2px solid black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumeTop {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resumeTitle {
+	text-align: center;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 3rem;
+}
+
+.rightAlign {
+	text-align: right;
+}
+
+.resumeSection {
+	font-size: 2rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.jobDates {
+	font-size: 1.5rem;
+	margin-left: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.jobTitle {
+	margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.resumeHeading {
+	font-weight: bold;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.accomplishments {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 15px;
+}
+
+.resumeNotes {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 15px;
+}

@@ -19,7 +19,7 @@ const Resume = () => {
 	};
 
 	return (
-		<div className='body'>
+		<div className='resumeBody'>
 			<h1>Resume</h1>
 			<div className='btnDiv'>
 				<button
@@ -32,15 +32,17 @@ const Resume = () => {
 			</div>
 			<p>This resume displays best on a desktop or tablet.</p>
 			<tbody>
-				<table>
+				<table className='resumeTop'>
 					<tr>
 						<th colspan='2'>
-							<h2>Holly Antle</h2>
+							<h2 className='resumeTitle'>Holly Antle</h2>
 						</th>
 					</tr>
 					<tr>
 						<td>Based in Texas, open to Fully Remote positions</td>
-						<td className='rightAlign'>Phone: 940-613-1574</td>
+						<td className='rightAlign'>
+							Phone: Visible in Downloadable File
+						</td>
 					</tr>
 					<tr>
 						<td>
@@ -72,7 +74,7 @@ const Resume = () => {
 					</tr>
 				</table>
 			</tbody>
-			<h2>Summary</h2>
+			<h2 className='resumeSection'>Summary</h2>
 			<p>
 				I am an M-shaped full-stack developer with supplemental skills in
 				marketing and data analytics. I create responsive websites,
@@ -82,14 +84,14 @@ const Resume = () => {
 				sales, marketing, business strategy, procurement, product
 				development, and leadership.
 			</p>
-			<h2>Experience</h2>
-			<h3>August 2022 - Present:</h3>
-			<p>
-				<strong>Full-Stack Developer.</strong> InfoMarines, on loan to the
-				U.S. Mint
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h2 className='resumeSection'>Experience</h2>
+			<h3 className='jobDates'>August 2022 - Present:</h3>
+			<h4 className='jobTitle'>
+				<strong>Full-Stack Developer,</strong> InfoMarines &#40;on loan to
+				the U.S. Mint&#41;
+			</h4>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>
 					Worked with a multi-disciplinary remote team in an Agile setting
 					to resolve user tickets, upgrade existing computer systems, and
@@ -121,13 +123,13 @@ const Resume = () => {
 					and transparency for future changes
 				</li>
 			</ul>
-			<h3>December 2021 - June 2022:</h3>
-			<p>
-				<strong>Head of Marketing & Web Development.</strong> Confidential
-				(by NDA)
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h3 className='jobDates'>December 2021 - June 2022:</h3>
+			<h4 className='jobTitle'>
+				<strong>Head of Marketing & Web Development,</strong> Confidential
+				&#40;by NDA&#41;
+			</h4>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>
 					Led a team at Director level, managing and overseeing the rollout
 					and transition to a new website with more than 150 pages
@@ -150,18 +152,20 @@ const Resume = () => {
 					daily website revenue was $16-17k.
 				</li>
 			</ul>
-			<h3>February 2020 - July 2021:</h3>
+			<h3 className='jobDates'>February 2020 - July 2021:</h3>
+			<h4 className='jobTitle'>
+				<strong>Co-Founder and CEO,</strong> Meriluna
+			</h4>
 			<p>
-				<strong>Co-Founder and CEO</strong> Meriluna
+				<emphasis>
+					Meriluna was a failed startup. Unfortunately, we began our
+					startup just prior to the pandemic and were unable to secure
+					funding before we ran out of runway. While the startup failed, it
+					was a tremendous learning experience.
+				</emphasis>
 			</p>
-			<p>
-				Meriluna was a failed startup. Unfortunately, we began our startup
-				just prior to the pandemic and were unable to secure funding before
-				we ran out of runway. While the startup failed, it was a tremendous
-				learning experience.
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>
 					Led a SaaS Pre-Seed startup focused on creating a new
 					communication app
@@ -179,12 +183,12 @@ const Resume = () => {
 					ECS containers to manage and maintain daily operations
 				</li>
 			</ul>
-			<h3>March 2019 - April 2020:</h3>
-			<p>
-				<strong>Web Marketing Manager. </strong> ERNow Wichita Falls
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h3 className='jobDates'>March 2019 - April 2020:</h3>
+			<h4 className='jobTitle'>
+				<strong>Web Marketing Manager, </strong> ERNow Wichita Falls
+			</h4>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>
 					Performed all marketing, advertising, and public relations for a
 					healthcare facility
@@ -195,12 +199,12 @@ const Resume = () => {
 					customizing those pages and modules in a custom CMS.
 				</li>
 			</ul>
-			<h3>September 2018 - February 2019:</h3>
-			<p>
-				<strong>Front End Developer/UX Designer. </strong> PAI Health
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h3 className='jobDates'>September 2018 - February 2019:</h3>
+			<h4 className='jobTitle'>
+				<strong>Front End Developer/UX Designer, </strong> PAI Health
+			</h4>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>
 					Worked with a Series A insurtech/healthtech startup with over
 					$10m ARR
@@ -215,12 +219,12 @@ const Resume = () => {
 					visual and comprehensible way
 				</li>
 			</ul>
-			<h3>September 2017 - July 2018:</h3>
-			<p>
-				<strong>Junior Full-Stack Web Developer. </strong> InboundLabs GmbH
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h3 className='jobDates'>September 2017 - July 2018:</h3>
+			<h4 className='jobTitle'>
+				<strong>Junior Full-Stack Web Developer, </strong> InboundLabs GmbH
+			</h4>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>
 					Worked with Content Management Systems including WordPress and
 					custom-built systems
@@ -231,12 +235,12 @@ const Resume = () => {
 				</li>
 				<li>Performed simple database maintenance using MySQL</li>
 			</ul>
-			<h3>June 2015 - October 2017:</h3>
-			<p>
-				<strong>Project Manager. </strong> Laurel Books
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h3 className='jobDates'>June 2015 - October 2017:</h3>
+			<h4 className='jobTitle'>
+				<strong>Project Manager, </strong> Laurel Books
+			</h4>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>
 					Recruited, hired, onboarded, trained, mentored, and managed a
 					fully remote team of more than 25 people
@@ -250,28 +254,30 @@ const Resume = () => {
 					focusing on page load time, site speed, and clean code
 				</li>
 			</ul>
-			<h3>April 2014 - July 2015:</h3>
-			<p>
-				<strong>Junior UX Designer and Copywriter. </strong> BK Dental, LLC
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h3 className='jobDates'>April 2014 - July 2015:</h3>
+			<h4 className='jobTitle'>
+				<strong>Junior UX Designer and Copywriter, </strong> BK Dental, LLC
+			</h4>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>Wrote Content and Copy</li>
 				<li>Assisted with UX design</li>
 			</ul>
-			<h3>January 2012 - March 2014:</h3>
-			<p>
-				<strong>Junior UX Designer and Copywriter. </strong> CopyGirl
-			</p>
-			<h4>Accomplishments</h4>
-			<ul>
+			<h3 className='jobDates'>January 2012 - March 2014:</h3>
+			<h4 className='jobTitle'>
+				<strong>Junior UX Designer and Copywriter, </strong> CopyGirl
+			</h4>
+			<h5 className='resumeHeading'>Accomplishments</h5>
+			<ul className='accomplishments'>
 				<li>Wrote Content and Copy</li>
 				<li>Assisted with UX design</li>
 			</ul>
-			<h3>Additional Notes:</h3>
-			<ul>
+			<h3 className='resumeSection'>Additional Notes:</h3>
+			<ul className='resumeNotes'>
 				<li>Currently hold a Public Trust Clearance</li>
-				<li>Currently attending Texas A&amp;M University - Central Texas</li>
+				<li>
+					Currently attending Texas A&amp;M University - Central Texas
+				</li>
 				<ul>
 					<li>Majoring in Computer Science</li>
 					<li>Expected completion of B.S. in 2025</li>
