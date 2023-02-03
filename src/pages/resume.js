@@ -36,9 +36,7 @@ const Resume = () => {
 				<div className='resume1'>
 					Based in Texas, open to Fully Remote positions
 				</div>
-				<div className='resume2'>
-					Phone: Visible in Downloadable File
-				</div>
+				<div className='resume2'>Phone: Visible in Downloadable File</div>
 				<div className='resume3'>
 					Email:{' '}
 					<a href='mailto: holly@hollyantle.com'>holly@hollyantle.com</a>
