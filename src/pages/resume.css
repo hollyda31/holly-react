@@ -1,32 +1,69 @@
+.btnDiv {
+    text-align: center;
+}
+
 #downloadBtn {
-	margin-left: auto;
-	margin-right: auto;
+    padding: 10px;
 }
 
 .resumeBody {
 	width: 850px;
 	margin-left: auto;
 	margin-right: auto;
-	background-color: #d7d7d7;
+    padding-left: 10px;
+    padding-right: 10px;
+	background-color: #f7f7f7;
 	color: black;
 	border: 2px solid black;
 	font-family: Arial, Helvetica, sans-serif;
-}
-
-.resumeTop {
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .resumeTitle {
 	text-align: center;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 3rem;
+	text-decoration: none;
 }
 
-.rightAlign {
+.resumeTop {
+	display: grid;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.resume1 {
+	grid-area: 1 / 1 / span 1 / span 1;
+	text-align: left;
+}
+
+.resume2 {
+	grid-area: 1 / 2 / span 1 / span 1;
 	text-align: right;
+}
+
+.resume3 {
+	grid-area: 2 / 1 / span 1 / span 1;
+	text-align: left;
+}
+
+.resume4 {
+	grid-area: 2 / 2 / span 1 / span 1;
+	text-align: right;
+}
+
+.resume5 {
+	grid-area: 3 / 1 / span 1 / span 1;
+	text-align: left;
+}
+
+.resume6 {
+	grid-area: 3 / 2 / span 1 / span 1;
+	text-align: right;
+}
+
+.resumeTitle h2 {
+	text-decoration-line: none;
 }
 
 .resumeSection {
@@ -34,28 +71,47 @@
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.resumeSummary {
+    text-size: 16px;
+    line-height: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .jobDates {
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 	margin-left: 5px;
 	font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
 }
 
 .jobTitle {
 	margin-left: 10px;
 	font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    padding-left: 30px;
+    margin-top: -15px;
 }
 
 .resumeHeading {
 	font-weight: bold;
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1rem;
+    padding-left: 70px;
+    margin-top: -15px;
 }
 
 .accomplishments {
 	font-family: Arial, Helvetica, sans-serif;
-	margin-left: 15px;
+	margin-left:70px;
+    margin-right: 70px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: -10px;
 }
 
 .resumeNotes {
 	font-family: Arial, Helvetica, sans-serif;
 	margin-left: 15px;
+    margin-top: -25px;
 }

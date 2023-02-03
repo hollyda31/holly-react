@@ -31,51 +31,37 @@ const Resume = () => {
 				</button>
 			</div>
 			<p>This resume displays best on a desktop or tablet.</p>
-			<tbody>
-				<table className='resumeTop'>
-					<tr>
-						<th colspan='2'>
-							<h2 className='resumeTitle'>Holly Antle</h2>
-						</th>
-					</tr>
-					<tr>
-						<td>Based in Texas, open to Fully Remote positions</td>
-						<td className='rightAlign'>
-							Phone: Visible in Downloadable File
-						</td>
-					</tr>
-					<tr>
-						<td>
-							Email:{' '}
-							<a href='mailto: holly@hollyantle.com'>
-								holly@hollyantle.com
-							</a>
-						</td>
-						<td className='rightAlign'>
-							Website:{' '}
-							<a href='http://www.hollyantle.com'>
-								http://www.hollyantle.com
-							</a>
-						</td>
-					</tr>
-					<tr>
-						<td>
-							LinkedIn:{' '}
-							<a href='https://www.linkedin.com/in/hollyantle'>
-								https://www.linkedin.com/in/hollyantle
-							</a>
-						</td>
-						<td className='rightAlign'>
-							GitHub:{' '}
-							<a href='https://github.com/hollyda31'>
-								https://github.com/hollyda31
-							</a>
-						</td>
-					</tr>
-				</table>
-			</tbody>
+			<h2 className='resumeTitle'>Holly Antle</h2>
+			<div className='resumeTop'>
+				<div className='resume1'>
+					Based in Texas, open to Fully Remote positions
+				</div>
+				<div className='resume2'>
+					Phone: Visible in Downloadable File
+				</div>
+				<div className='resume3'>
+					Email:{' '}
+					<a href='mailto: holly@hollyantle.com'>holly@hollyantle.com</a>
+				</div>
+				<div className='resume4'>
+					Website:{' '}
+					<a href='http://www.hollyantle.com'>http://www.hollyantle.com</a>
+				</div>
+				<div className='resume5'>
+					LinkedIn:{' '}
+					<a href='https://www.linkedin.com/in/hollyantle'>
+						https://www.linkedin.com/in/hollyantle
+					</a>
+				</div>
+				<div className='resume6'>
+					GitHub:{' '}
+					<a href='https://github.com/hollyda31'>
+						https://github.com/hollyda31
+					</a>
+				</div>
+			</div>
 			<h2 className='resumeSection'>Summary</h2>
-			<p>
+			<p className='resumeSummary'>
 				I am an M-shaped full-stack developer with supplemental skills in
 				marketing and data analytics. I create responsive websites,
 				accessible interfaces, functional databases, and clean code that
@@ -156,14 +142,6 @@ const Resume = () => {
 			<h4 className='jobTitle'>
 				<strong>Co-Founder and CEO,</strong> Meriluna
 			</h4>
-			<p>
-				<emphasis>
-					Meriluna was a failed startup. Unfortunately, we began our
-					startup just prior to the pandemic and were unable to secure
-					funding before we ran out of runway. While the startup failed, it
-					was a tremendous learning experience.
-				</emphasis>
-			</p>
 			<h5 className='resumeHeading'>Accomplishments</h5>
 			<ul className='accomplishments'>
 				<li>
