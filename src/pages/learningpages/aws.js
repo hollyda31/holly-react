@@ -199,6 +199,7 @@ function Aws() {
 				<p>
 					<img
 						src='assets/images/sharedresponsibilitymodel.png'
+						alt='Amazon Shared Responsibility Model'
 						width='80%'
 					/>
 				</p>
@@ -219,6 +220,7 @@ function Aws() {
 				<p>
 					<img
 						src='assets/images/awscloudsecurity.png'
+						alt='AWS Cloud Security'
 						width='80%'
 					/>
 				</p>

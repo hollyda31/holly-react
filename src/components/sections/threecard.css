@@ -1,6 +1,6 @@
 .threecard {
 	background-color: black;
-	top-margin: -20px;
+	margin-top: -20px;
 	padding: 60px 30px 30px 30px;
 }
 
@@ -20,17 +20,16 @@ button:hover {
 	text-align: center;
 }
 
+.image {
+	text-align: center;
+}
+
 .card p {
 	color: white;
 }
 
 .card strong {
 	color: white;
-}
-
-.image {
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .cta {
@@ -45,32 +44,28 @@ button {
 	border-radius: 7px;
 }
 
-@media only screen and (min-width: 1330px) {
+@media only screen and (min-width: 1051px) {
 	.threecard {
 		display: flex;
 		flex-flow: row;
+		padding: 5px 0.5% 10px 0.5%;
 	}
 
 	.card {
-		max-width: 20%;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		max-width: 29%;
 		display: block;
-		padding-left: 2%;
-		padding-right: 2%;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		margin-left: 3%;
-		margin-right: 3%;
+		padding: 10px 2%;
+		margin: 10px 2%;
 	}
 
 	.card h2 {
 		font-size: 1.8rem;
 	}
 
-	.image {
-		width: 250px;
-		height: 250px;
+	.cardpic {
+		width: 200px;
+		height: 200px;
+		object-fit: contain;
 	}
 
 	.card p {
@@ -87,6 +82,87 @@ button {
 
 	button {
 		font-size: 1.3rem;
+		padding: 5px 10px;
+	}
+}
+
+@media only screen and (max-width: 1050px) {
+	.threecard {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.card {
+		max-width: 80%;
+		display: block;
+		padding: 7px 5%;
+		margin: 7px 5%;
+	}
+
+	.card h2 {
+		font-size: 1.5rem;
+	}
+
+	.cardpic {
+		max-width: 250px;
+		max-height: 250px;
+		object-fit: contain;
+	}
+
+	.card p {
+		font-size: 1.1rem;
+		letter-spacing: 0.025rem;
+		word-spacing: 0.3rem;
+		line-height: 1.3rem;
+	}
+
+	.cta {
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+
+	button {
+		font-size: 1.25rem;
+		padding: 5px 10px;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.threecard {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.card {
+		width: 80%;
+		padding: 7px 5%;
+		margin: 7px 5%;
+	}
+
+	.card h2 {
+		font-size: 1.3rem;
+	}
+
+	.cardpic {
+		width: 200px;
+		height: 200px;
+		object-fit: contain;
+	}
+
+	.card p {
+		font-size: 1.1rem;
+		letter-spacing: 0.025rem;
+		word-spacing: 0.3rem;
+		line-height: 1.2rem;
+	}
+
+	.cta {
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+
+	button {
+		font-size: 1.2rem;
 		padding: 5px 10px;
 	}
 }

@@ -4,7 +4,7 @@ import './resume.css';
 const Resume = () => {
 	// Function will execute on click of button
 	const downloadResume = () => {
-		// using Java Script method to get PDF file
+		// using JavaScript method to get PDF file
 		fetch('AntleHollyFullStack.pdf').then((response) => {
 			response.blob().then((blob) => {
 				// Creating new object of PDF file

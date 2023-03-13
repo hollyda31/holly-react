@@ -1,84 +1,194 @@
-* {
-	background-color: rgba(0, 0, 0, 0);
-}
-
 .hero {
 	width: 100%;
-}
-
-.heroGrid {
-	display: grid;
-	grid-template-columns: 50% 20% 30%;
-}
-
-.heroLeft {
-	grid-column: 1;
-	grid-row: 1;
-	width: 60%;
-	padding-top: 4rem;
 }
 
 .hero p {
 	color: white;
 }
 
-.heroHeadline {
-	color: white;
-	text-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	font-size: 3rem;
-	font-weight: bold;
-	padding-left: 15%;
-}
-
-.heroSubtext {
-	color: white;
-	text-shadow: 0 0 20px rgba(0, 0, 0, .5);
-	font-size: 2rem;
-	font-weight: bold;
-	padding-left: 45%;
-	padding-top: 1rem;
-	text-decoration: none;
-}
-
-.heroRight {
-	grid-column: 3;
-	grid-row: 1;
-}
-
-.heroSkills {
-	color: white;
-	font-size: 1.5rem;
-	justify-content: center;
-	font-weight: bold;
-	text-shadow: 0 0 20px rgba(0, 0, 0, .5);
-}
-
 @media (min-width: 901px) {
+	.heroGrid {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+
+	.heroLeft {
+		grid-column: 1;
+		grid-row: 1;
+		padding-top: 2rem;
+	}
+
 	.heroBackground {
 		background-image: url('/src/images/herofull.png');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		min-height: 350px;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
+	.heroRight {
+		grid-column: 2;
+		grid-row: 1;
+		color: white;
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	}
+
+	.heroHeadline {
+		color: white;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+		font-size: 3rem;
+		font-weight: bold;
+	}
+
+	.heroSubtext {
+		color: white;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+		font-size: 2rem;
+		font-weight: bold;
+		padding-left: 30%;
+		padding-top: 1rem;
+		text-decoration: none;
+	}
+
+	.heroSkills {
+		list-style-type: none;
+		text-align: center;
+		margin: 5px;
+		padding: 30px 10px;
+		line-height: 2.1rem;
+		letter-spacing: 1.3px;
+	}
+
+	.heroSkills .li {
+		font-size: 1.5rem;
+		font-weight: normal;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+		list-style-type: none;
 	}
 }
 
 @media (min-width: 700px) and (max-width: 900px) {
+	.heroGrid {
+		display: grid;
+		grid-template-columns: 60% 40%;
+	}
+
+	.heroLeft {
+		grid-column: 1;
+		grid-row: 1;
+		padding-top: 3rem;
+	}
+
+	.heroRight {
+		grid-column: 2;
+		grid-row: 1;
+		color: white;
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	}
+
+	.heroHeadline {
+		color: white;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+		font-size: 3rem;
+		font-weight: bold;
+	}
+
 	.heroBackground {
-		background-image: url('/src/images/heromid.png');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		min-height: 250px;
+		 background-image: url('/src/images/heromid.png');
+		 background-position: center;
+		 background-repeat: no-repeat;
+		 background-size: cover;
+		 min-height: 250px;
+		background-color: rgba(0, 0, 0, 0.3);
+	 }
+
+	.heroSubtext {
+		color: white;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+		font-size: 2rem;
+		font-weight: bold;
+		padding-left: 15%;
+		padding-top: 1rem;
+		text-decoration: none;
+	}
+
+	.heroSkills {
+		list-style-type: none;
+		text-align: center;
+		margin: 5px;
+		padding: 10px;
+	}
+
+	.heroSkills li {
+		padding: 5px 12px;
+		font-size: 1.5rem;
+		font-weight: normal;
 	}
 }
 
 @media (max-width: 699px) {
+	.heroGrid {
+		display: grid;
+	}
+
+	.heroLeft {
+		grid-column: 1;
+		grid-row: 1;
+		width: 100%;
+		padding-top: 4rem;
+	}
+
+	.heroRight {
+		grid-column: 1;
+		grid-row: 2;
+		color: white;
+		font-size: 1.5rem;
+		font-weight: bold;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+	}
+
+	.heroSkills {
+		list-style-type: none;
+		text-align: center;
+		margin: 5px;
+		padding: 3px;
+	}
+
+	.heroSkills li {
+		display: inline-flex;
+		padding: 5px 12px;
+		font-size: 1.2rem;
+		font-weight: normal;
+	}
+
+	.heroHeadline {
+		color: white;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+		font-size: 2.5rem;
+		font-weight: bold;
+	}
+
+	.heroSubtext {
+		color: white;
+		text-shadow: 0 0 20px rgba(0, 0, 0, .5);
+		font-size: 2rem;
+		font-weight: bold;
+		padding: 0.5rem 0 1rem 0;
+		text-align: center;
+		text-decoration: none;
+	}
+
 	.heroBackground {
 		background-image: url('/src/images/heromobile.png');
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
 		min-height: 150px;
+		background-color: rgba(0, 0, 0, 0.3);
 	}
 }

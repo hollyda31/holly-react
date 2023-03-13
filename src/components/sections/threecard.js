@@ -17,6 +17,7 @@ const Threecard = () => {
 					<img
 						src={Learn}
 						alt=''
+						className={'cardpic'}
 					/>
 				</div>
 				<p>
@@ -43,6 +44,7 @@ const Threecard = () => {
 					<img
 						src={ResumePic}
 						alt=''
+						className={'cardpic'}
 					/>
 				</div>
 				<p>
@@ -69,6 +71,7 @@ const Threecard = () => {
 					<img
 						src={PortfolioPic}
 						alt=''
+						className={'cardpic'}
 					/>
 				</div>
 				<p>

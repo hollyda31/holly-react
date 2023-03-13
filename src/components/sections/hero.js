@@ -11,16 +11,16 @@ const Hero = () => {
 						<div  className='heroSubtext'>Full Stack Developer</div>
 					</div>
 					<div className='heroRight'>
-						<div className='heroSkills'>
-							<p>HTML/CSS</p>
-							<p>JavaScript</p>
-							<p>React</p>
-							<p>MongoDB</p>
-							<p>SQL</p>
-							<p>PHP</p>
-							<p>Node.js</p>
-							<p>AWS</p>
-						</div>
+						<ul className='heroSkills'>
+							<li>HTML/CSS</li>
+							<li>JavaScript</li>
+							<li>React</li>
+							<li>MongoDB</li>
+							<li>SQL</li>
+							<li>PHP</li>
+							<li>Node.js</li>
+							<li>AWS</li>
+						</ul>
 					</div>
 				</div>
 			</div>

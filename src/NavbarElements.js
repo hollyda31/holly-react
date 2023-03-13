@@ -17,6 +17,7 @@ export const NavLink = styled(Link)`
 	}
 `;
 
+/* not used
 export const Bars = styled(FaBars)`
 	display: none;
 	background-color: #679436;
@@ -31,3 +32,4 @@ export const Bars = styled(FaBars)`
 		cursor: pointer;
 	}
 `;
+*/
