@@ -1,3 +1,8 @@
+.learning {
+  background-color: white;
+  color: black;
+}
+
 body {
   font-family: 'Times New Roman', serif;
 }
@@ -126,22 +131,22 @@ th {
   font-size: 1.2em;
 }
 
-.navbar {
+.learningNavbar {
   background-color: #3c1642;
   display: flex;
   justify-content: left;
 }
 
-.navbar ul {
+.learningNavbar ul {
   list-style: none;
 }
 
-.navbar ul li {
+.learningNavbar ul li {
   display: inline;
   padding: 20px;
 }
 
-.navbar ul li a {
+.learningNavbar ul li a {
   text-decoration: none;
   color: white;
 }
