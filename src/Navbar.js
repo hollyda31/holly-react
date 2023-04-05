@@ -1,8 +1,6 @@
 import React from 'react';
-import { NavLink } from './NavbarElements';
 import './navbar.css';
 import { Link } from 'react-router-dom';
-
 
 const Navbar = () => {
 	return (
@@ -30,7 +28,7 @@ const Navbar = () => {
 						Resume
 					</Link>
 					<Link
-						to='/mywork'
+						to='/portfolio'
 						activeStyle
 						className='navbarLink'
 					>

@@ -1,0 +1,48 @@
+.info {
+	background-color: black;
+	color: white;
+	padding: 10px 10%;
+}
+
+.portContent {
+	background-color: #434344;
+	color: white;
+	padding: 0 5%;
+}
+
+.porth1 {
+	color: #ffda22;
+	font-weight: bold;
+	font-size: 2.5em;
+}
+
+.porth2 {
+	color: #0083ff;
+	font-size: 2em;
+}
+
+.porth3 {
+	color: #cc49b8;
+	font-size: 1.5em;
+}
+
+.porth4 {
+	color: #22ff2f;
+}
+
+.portImage {
+	display: flex;
+	flex-flow: row;
+	margin: 10px auto;
+	max-width: 80%;
+}
+
+#spacer {
+    height: 25px;
+    background-color: black;
+}
+
+.contactimg {
+    max-width: 40%;
+    margin: 10px auto;
+}

@@ -4,7 +4,7 @@ import Navbar from './Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/index';
 import Learning from './pages/learning';
-import MyWork from './pages/mywork';
+import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
 import Contact from './pages/contact';
 import CodingLang from './pages/learningpages/codinglang';
@@ -16,6 +16,7 @@ import FrontEnd from './pages/learningpages/frontend';
 import Misc from './pages/learningpages/misc';
 import Neurodivergence from './pages/learningpages/neurodivergence';
 import ThisWiki from './pages/learningpages/thiswiki';
+import Mint from './pages/mint';
 
 function App() {
 	return (
@@ -41,8 +42,8 @@ function App() {
 					element={<Resume />}
 				/>
 				<Route
-					path='/mywork'
-					element={<MyWork />}
+					path='/portfolio'
+					element={<Portfolio />}
 				/>
 				<Route
 					path='/contact'
@@ -83,6 +84,10 @@ function App() {
 				<Route
 					path='/thiswiki'
 					element={<ThisWiki />}
+				/>
+				<Route
+					path='/mint'
+					element={<Mint />}
 				/>
 			</Routes>
 		</Router>

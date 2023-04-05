@@ -4,22 +4,42 @@ import { Link } from 'react-router-dom';
 function LearningMenu() {
 	return (
 		<div id='learningMenu'>
-			<nav className='navbar'>
+			<nav className='learningNavbar'>
 				<ul>
 					<li>
-						<Link to='../learning'>Wiki Home</Link>
+						<Link
+							to={'../learning'}
+							className='learningLink'>
+							Wiki Home
+						</Link>
 					</li>
 					<li>
-						<Link to={'../codinglang'}>Coding Languages</Link>
+						<Link
+							to={'../codinglang'}
+							className='learningLink'>
+							Coding Languages
+						</Link>
 					</li>
 					<li>
-						<Link to={'../programming'}>Programming</Link>
+						<Link
+							to={'../programming'}
+							className='learningLink'>
+							Programming
+						</Link>
 					</li>
 					<li>
-						<Link to={'../misc'}>Miscellaneous</Link>
+						<Link
+							to={'../misc'}
+							className='learningLink'>
+							Miscellaneous
+						</Link>
 					</li>
 					<li>
-						<Link to={'../thiswiki'}>This Wiki</Link>
+						<Link
+							to={'../thiswiki'}
+							className='learningLink'>
+							This Wiki
+						</Link>
 					</li>
 				</ul>
 			</nav>

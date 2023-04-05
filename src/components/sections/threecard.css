@@ -48,7 +48,7 @@ button {
 	.threecard {
 		display: flex;
 		flex-flow: row;
-		padding: 5px 0.5% 10px 0.5%;
+		padding: 60px 30px 30px 30px;
 	}
 
 	.card {
@@ -86,7 +86,7 @@ button {
 	}
 }
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
 	.threecard {
 		display: flex;
 		flex-flow: column;
@@ -127,14 +127,14 @@ button {
 	}
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 416px) and (max-width: 767px) {
 	.threecard {
 		display: flex;
 		flex-flow: column;
 	}
 
 	.card {
-		width: 80%;
+		max-width: 80%;
 		padding: 7px 5%;
 		margin: 7px 5%;
 	}
@@ -164,5 +164,42 @@ button {
 	button {
 		font-size: 1.2rem;
 		padding: 5px 10px;
+	}
+}
+
+@media only screen and (max-width: 415px) {
+	.threecard {
+		display: flex;
+		flex-flow: column;
+	}
+
+	.card {
+		max-width: 80%;
+		padding: 5px 2%;
+		margin: 5px 2%;
+	}
+
+	.card h2 {
+		font-size: 1rem;
+	}
+
+	.cardpic {
+		width: 100px;
+		height: 100px;
+		object-fit: contain;
+	}
+
+	.card p {
+		font-size: 0.8rem;
+	}
+
+	.cta {
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+
+	button {
+		font-size: 1rem;
+		padding: 3px 6px;
 	}
 }
